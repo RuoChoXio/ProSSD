@@ -1,4 +1,6 @@
-# ProSSD: Verifiable LLM-Generated Text Detection via Projected Semantic-Structural Distributions
+# Verifiable LLM-Generated Text Detection via Projected Semantic-Structural Distributions
+
+**ACL 2026 (Long Papers)** | [ACL Anthology](https://aclanthology.org/2026.acl-long.638/) | [Paper PDF](https://aclanthology.org/2026.acl-long.638.pdf)
 
 This repository provides the implementation and datasets for **Verifiable LLM-Generated Text Detection via Projected Semantic-Structural Distributions**.
 
