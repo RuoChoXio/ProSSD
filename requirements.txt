@@ -1,0 +1,7 @@
+torch
+transformers
+scikit-learn
+scipy
+spacy
+numpy
+tqdm
