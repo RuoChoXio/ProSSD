@@ -14,14 +14,12 @@ The framework has three components:
 
 The paper investigates cross-domain, cross-model, and adversarial detection, data efficiency, and computational efficiency. It also examines systematic semantic translation and semantic collapse to provide interpretable statistical evidence about LLM generation behavior. This release contains the core detection pipeline, domain/model evaluation data, and training-size subsets; it does not include scripts for every experiment in the paper.
 
-**中文简介：** ProSSD 通过监督子空间投影提取低维语义特征，按局部句法结构建立人类文本与机器生成文本的条件分布，再利用 Wasserstein 距离加权的似然比统计量进行检测。该方法关注可逐步检验的统计证据，并研究跨领域、跨模型及对抗场景下的泛化能力，以及机器生成文本的系统性语义偏移和语义坍缩现象。
-
 ## Repository structure
 
 ```text
 ProSSD/
 ├── README.md                 # Paper introduction and repository guide
-├── LICENSE                   # Free noncommercial use; commercial license required
+├── LICENSE                   # CC BY-NC 4.0
 ├── requirements.txt
 ├── src/
 │   ├── run.py                # train_probe / build_lib / eval entry point
@@ -109,14 +107,12 @@ For a small smoke run, pass `--limit 50` to **each stage** and choose a separate
 
 The pretrained encoder is frozen, but the projection, class distributions, and threshold require labeled training data. No trained projection or distribution library is included in this release.
 
-## License and commercial use
+## License
 
-This release uses the custom [ProSSD Noncommercial License 1.0](LICENSE).
+Copyright (c) 2026 ProSSD contributors.
 
-- **Noncommercial use is free**, including noncommercial research, teaching, personal study, modification, and redistribution under the license terms.
-- **Commercial use is not granted by this license.** Commercial products, services, paid APIs, and internal business use require a separate written commercial license from the relevant rights holder(s). A commercial license may require a fee; payment alone does not grant permission.
-- Preserve attribution and the license when redistributing. Third-party datasets, text, models, and dependencies retain their own rights and terms; this license covers only rights the ProSSD licensors can grant.
+This repository is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](LICENSE).
 
-**中文说明：非商业用途免费；商业用途不在免费授权范围内，须事先取得相关权利人的单独书面商业授权，授权可另行收费。** 本仓库采用限制商业用途的自定义许可证，不属于 OSI 认可的开源许可证。第三方材料仍受其原有条款约束。
+You may share and adapt the material for noncommercial purposes, provided you give appropriate credit, link to the license, and indicate any changes. Commercial use is not permitted under this license.
 
-For commercial licensing inquiries, contact [RuoChoXio](https://github.com/RuoChoXio). This release's licensing terms do not revoke rights already granted for any earlier version under a different license.
+See the [official license summary](https://creativecommons.org/licenses/by-nc/4.0/) and [full license text](LICENSE). Third-party materials remain subject to their original rights and terms.

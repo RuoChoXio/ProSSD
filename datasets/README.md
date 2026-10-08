@@ -60,6 +60,6 @@ The current loader separates human and LLM records, then pairs them by order up 
 
 Domain files cover arXiv, writing prompts, XSum, and Yelp reviews. Model files cover Claude Sonnet 4, Gemini 3 Flash Preview, GPT-5.1, and Grok 4.1. The merged file is an aggregate evaluation set; do not treat it and its domain files as independent additional datasets. Training-size variants are for data-efficiency experiments, not independent test splits.
 
-## Rights and attribution
+## License
 
-ProSSD's own licensable contributions are distributed under the [ProSSD Noncommercial License 1.0](../LICENSE): noncommercial use is free; commercial use requires a separate written license. Underlying third-party text and datasets retain their original rights and applicable terms. The repository license does not grant rights the contributors do not own, and does not replace upstream licenses. The supplied filenames reference DetectRL; no complete upstream rights/provenance manifest was included with these files.
+ProSSD's own licensable dataset contributions are licensed under [CC BY-NC 4.0](../LICENSE). Sharing and adaptation are permitted for noncommercial purposes with appropriate attribution, a license link, and an indication of changes. Underlying third-party text and datasets retain their original rights and applicable terms.
