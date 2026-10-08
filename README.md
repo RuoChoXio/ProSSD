@@ -119,4 +119,4 @@ You may share and adapt the material for noncommercial purposes, provided you gi
 
 See the [official license summary](https://creativecommons.org/licenses/by-nc/4.0/) and [full license text](LICENSE). Third-party materials remain subject to their original rights and terms.
 
-If you have any further questions, please feel free to contact the author at [xiongrc2002@163.com](mailto:xiongrc2002@163.com).
+If you have any further questions, please feel free to contact the author at [xiongrc@stu.pku.edu.cn](mailto:xiongrc@stu.pku.edu.cn).
